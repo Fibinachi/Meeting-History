@@ -62,7 +62,7 @@ This encounter is built for supervised educational use: a teacher present, a cla
 
 > "Whatever the inundation reaches on our land, Merisu is to work it — he and all my people with him. I will hold him to account for it. Tell him to be quick at the plowing and careful, and to guard my seed-corn, and guard everything of mine. I will hold him to account for that too. The flood does not wait for a man to be ready, so a man must be ready before the flood."
 
-*Traced: Letter I — "As to any flooding on our land, it is thou who art cultivating it... I shall hold thee responsible... guard the produce of my grain – guard everything of mine" (renderings of Gunn, James, Baer agree on the shape).*
+*Traced: Letter I — Heqanakht tells Merisu that whatever the inundation reaches on their land is his to cultivate, that he will be held responsible for it, and that he must guard the seed-corn and all of Heqanakht's property. All major translators (Gunn, James, Baer, Allen) agree on the shape of the passage.*
 
 **If asked who owes him grain (Letter II and the accounts):**
 
@@ -160,7 +160,7 @@ While away from home on his priestly duties, Heqanakht ran his farm and househol
 
 ### 3. What came after.
 
-He could not know any of this. Translators argued over his words for a century — Gunn, then James in 1962, then Allen's definitive edition in 2002. Economists mined the accounts for the earliest evidence of grain as money. Agatha Christie read about the household quarrel and built her 1944 novel *Death Comes as the End* around it. The papyri sit in a museum, four thousand years from the fields they describe.
+He could not know any of this. Translators argued over his words for a century — Gunn, then James in 1962, then Allen's standard edition in 2002. Economists mined the accounts to study how grain functioned as money four thousand years ago. Agatha Christie read about the household quarrel and built her 1944 novel *Death Comes as the End* around it. The papyri sit in a museum, four thousand years from the fields they describe.
 
 ### 4. The plain record.
 
