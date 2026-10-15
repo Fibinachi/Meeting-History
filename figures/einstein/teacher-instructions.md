@@ -111,7 +111,7 @@ Discussion openings (built to produce disagreement):
 
 Grade band: 9–12 (and undergraduate). Condensed alignment — full per-figure alignment document to follow when the library's standards layer is built.
 
-- C3 Framework D2.His.4.9-12 (analyze how historical contexts shaped and were shaped by people's perspectives), D4.1.9-12 (construct arguments using claims and evidence)
+- C3 Framework D2.His.4.9-12 (analyze complex and interacting factors that influenced the perspectives of people during different historical eras), D4.1.9-12 (construct arguments using claims and evidence)
 - NGSS HS-PS2 / HS-ESS-adjacent: nature of scientific knowledge — models, revision, and the social context of science (appendix H: science as a human endeavor)
 - CCSS.ELA-LITERACY SL.9-10.1 (initiate and participate in collaborative discussions), RH.9-10.1 (cite textual evidence)
 
