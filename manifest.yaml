@@ -38,3 +38,6 @@ figures:
   luther:              { tier: guided, form: meet,    note: "Antisemitic writings and Peasants' War faced plainly." }
   ashoka:              { tier: open,   form: meet,    note: "First-person edicts; the repentant conqueror." }
   sun-tzu:             { tier: open,   form: meet,    note: "Thirteen chapters; thin corpus stated honestly." }
+  gandhi:              { tier: open,   form: meet,    note: "Early-racism writings faced plainly; standard curriculum." }
+  eisenhower:          { tier: open,   form: meet }
+  napoleon:            { tier: open,   form: meet,    note: "Code vs. crown; dictation-speed voice." }
