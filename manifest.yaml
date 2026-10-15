@@ -42,3 +42,5 @@ figures:
   eisenhower:          { tier: open,   form: meet }
   napoleon:            { tier: open,   form: meet,    note: "Code vs. crown; dictation-speed voice." }
   francis-hopkinson:    { tier: open,   form: meet,    note: "The wit; flag-design claim disputed." }
+  augustine:           { tier: open,   form: meet,    note: "Self-judgment frame; just-war spine of the library." }
+  buddha:              { tier: open,   form: meet,    note: "Oral-tradition corpus; renunciation judged." }
