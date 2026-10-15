@@ -1,0 +1,37 @@
+# Meeting History — figure manifest
+# tier: open (solo-safe) | guided (teacher/debrief strongly recommended)
+# form: gateway | meet | debate
+
+figures:
+  socrates:            { tier: open,   form: gateway, note: "Platform introduction. He questions the student." }
+  plato:               { tier: open,   form: meet }
+  rhodes-and-watkins:  { tier: guided, form: debate,  note: "Inter-figure dialogue; Lost Cause guardrails." }
+  lincoln-douglas:     { tier: guided, form: debate,  note: "Inter-figure dialogue; re-staged 1858 debates." }
+  einstein:            { tier: open,   form: meet }
+  bohr:                { tier: open,   form: meet }
+  oppenheimer:         { tier: guided, form: meet,    note: "The bomb, the hearing; psychologically heavy." }
+  darwin:              { tier: open,   form: meet }
+  galileo:             { tier: open,   form: meet }
+  newton:              { tier: open,   form: meet }
+  feynman:             { tier: open,   form: meet }
+  ibn-al-haytham:      { tier: open,   form: meet }
+  bacon:               { tier: open,   form: meet }
+  jefferson:           { tier: open,   form: meet,    note: "Slavery content; standard curriculum." }
+  lincoln:             { tier: open,   form: meet,    note: "Colonization material faced honestly." }
+  lbj:                 { tier: guided, form: meet,    note: "Politically live; Vietnam." }
+  nixon:               { tier: guided, form: meet,    note: "Politically live." }
+  cicero:              { tier: open,   form: meet }
+  seneca:              { tier: open,   form: meet }
+  pliny-the-younger:   { tier: open,   form: meet }
+  caesar:              { tier: open,   form: meet }
+  demosthenes:         { tier: open,   form: meet }
+  xenophon:            { tier: open,   form: meet }
+  epicurus:            { tier: open,   form: meet }
+  pepys:               { tier: open,   form: meet }
+  klemperer:           { tier: guided, form: meet,    note: "Holocaust material; psychologically heavy." }
+  heqanakht:           { tier: open,   form: meet,    note: "Fragmentary corpus; figure is honest about it." }
+  shen-fu:             { tier: open,   form: meet }
+  aaron-burr:          { tier: open,   form: meet,    note: "Duel and treason trial; content warning." }
+  mccarthy:            { tier: guided, form: meet,    note: "'McCarthyism' is still a live word; firmest teacher instructions." }
+  lee:                 { tier: guided, form: meet,    note: "Firmest Lost Cause guardrails in the library." }
+  jefferson-davis:     { tier: guided, form: meet,    note: "Firmest Lost Cause guardrails in the library." }
