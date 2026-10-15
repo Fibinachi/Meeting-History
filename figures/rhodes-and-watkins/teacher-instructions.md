@@ -133,7 +133,7 @@ Condensed (grade band 9–12; full per-figure alignment document not yet written
 
 - C3 Framework D2.His.1.9-12 — evaluate how historical events were shaped by unique circumstances of time and place (two soldiers, two causes, one war).
 - C3 Framework D2.His.4.9-12 — analyze multiple and complex causes and effects (slavery as the war's cause vs. what each man believed he fought for).
-- C3 Framework D2.His.13.9-12 — critique the usefulness of historical sources for a specific inquiry (two memoirs; what each omits).
+- C3 Framework D2.His.11.9-12 — critique the usefulness of historical sources for a specific inquiry (two memoirs; what each omits).
 - CCSS.ELA-LITERACY.RH.11-12.2 — determine the central ideas of primary sources (the paired canonical answers).
 
 ## One last thing

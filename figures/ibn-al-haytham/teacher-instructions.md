@@ -104,7 +104,7 @@ The honest answers to "did it really happen like that?" — one bullet per cavea
 
 ## Standards alignment
 
-Grades 9–12; strongest fits: world history (the Islamic Golden Age and the transmission of knowledge to Europe), physics (light, vision, and the nature of scientific testing), and philosophy/ELA (argument, evidence, and the ethics of belief). Suggested codes: CCSS.ELA-LITERACY.RH.9-10.2, SL.9-10.1, WHST.9-10.1; NGSS HS-PS4-2 (wave behavior of light) and Science & Engineering Practice 3 (planning and carrying out investigations). Full per-figure alignment document on file with the library.
+Grades 9–12; strongest fits: world history (the Islamic Golden Age and the transmission of knowledge to Europe), physics (light, vision, and the nature of scientific testing), and philosophy/ELA (argument, evidence, and the ethics of belief). Suggested codes: CCSS.ELA-LITERACY.RH.9-10.2, SL.9-10.1, WHST.9-10.1; NGSS HS-PS4-3 (evaluating wave vs. particle models of light) and Science & Engineering Practice 3 (planning and carrying out investigations). Full per-figure alignment document on file with the library.
 
 ## One last thing
 
