@@ -2,7 +2,7 @@
 
 ## What this is
 
-A supervised classroom encounter with Mohandas K. Gandhi (1869–1948), run through a conversational AI (Claude or ChatGPT). Your students talk with him — by typing questions — and at the end each student renders the closing judgment, stated plainly: **he freed a nation without firing a shot — and his early pages carry the racism of his time. Judge him whole.**
+A supervised classroom encounter with Mohandas K. Gandhi (1869–1948), run through DeepSeek. Your students talk with him — by typing questions — and at the end each student renders the closing judgment, stated plainly: **he freed a nation without firing a shot — and his early pages carry the racism of his time. Judge him whole.**
 
 Gandhi speaks from Birla House, Delhi, in January 1948, his fast for communal peace just ended, looking back over his life. He is the non-violence seat on the library's shelf — and this encounter refuses to let him be only that. Its judgment engine is satyagraha's power and its limits, plus the early South African writings that complicate the saint.
 
@@ -23,7 +23,7 @@ Do not run this encounter without planning to run the debrief.
 
 ## What you need
 
-- A Claude or ChatGPT account. Either works. (Note any model-specific quirks found in testing under "If the model misbehaves.")
+- A DeepSeek account. Routed to DeepSeek 2026-10-20: Asian cultural figures perform better on Asian models. (Note any model-specific quirks found in testing under "If the model misbehaves.")
 - The encounter prompt, from the Gandhi page. Copy the entire prompt text.
 - One class period, roughly 45–60 minutes: ~25–30 for the encounter, ~20–25 for the debrief. It also works as a homework assignment followed by an in-class debrief, but the first run should be supervised.
 - A way to display the conversation if you run it as a class (projector or shared screen), or one device per student/group if they run it themselves.
@@ -36,7 +36,7 @@ This encounter runs only in a supervised educational setting: you present, a cla
 
 Do not walk into class cold. Run the encounter once yourself, alone, before your students ever see it. This is the single most important instruction on this page.
 
-1. Open Claude or ChatGPT in a new conversation.
+1. Open DeepSeek in a new conversation.
 2. Paste the entire encounter prompt and send it.
 3. Read Gandhi's opening carefully. Note the threads he offers: satyagraha (and what it is not), the salt, the fasts, the early years in South Africa.
 4. Now type a question yourself — e.g., "What did you write about the Africans in South Africa?" Watch what happens: Gandhi answers in one short paragraph — plainly, without softening — and then, outside the voice, in brackets and italics, the system suggests directions you might take next.
