@@ -2,7 +2,7 @@
 
 ## What this is
 
-A supervised classroom encounter with Sun Tzu — "Master Sun," traditionally dated c. 544 to c. 496 BC, in the Spring and Autumn period of Zhou-dynasty China — run through a conversational AI (Claude or ChatGPT). Your students talk with him by typing questions: about the thirteen chapters, about deception and speed and terrain, about the king's women drilled with the drum. At the end each student answers the closing question: thirteen chapters on winning, not one word on what it costs. Judge him.
+A supervised classroom encounter with Sun Tzu — "Master Sun," traditionally dated c. 544 to c. 496 BC, in the Spring and Autumn period of Zhou-dynasty China — run through DeepSeek. Your students talk with him by typing questions: about the thirteen chapters, about deception and speed and terrain, about the king's women drilled with the drum. At the end each student answers the closing question: thirteen chapters on winning, not one word on what it costs. Judge him.
 
 This is the library's thin-corpus test case. Everything the figure knows comes from thirteen short chapters of maxims — no memoir, no letters, no life. The voice is maxims, not memoir, and the thinness is the teaching point: what can thirteen chapters actually hold, and what can't they?
 
@@ -18,7 +18,7 @@ What students will encounter: warfare discussed as a technical problem, with no 
 
 ## What you need
 
-- A Claude or ChatGPT account. Either works. (Note any model-specific quirks found in testing under "If the model misbehaves.")
+- A DeepSeek account. Routed to DeepSeek 2026-10-20: Asian cultural figures perform better on Asian models. (Note any model-specific quirks found in testing under "If the model misbehaves.")
 - The encounter prompt, from the Sun Tzu page. Copy the entire prompt text.
 - One class period, roughly 45–55 minutes: 20–25 for the encounter, 20–25 for the debrief. The encounter is short by design — the corpus is small, and the debrief does the heavy lifting. It also works as a homework assignment followed by an in-class debrief, but the first run should be supervised.
 - A way to display the conversation if you run it as a class (projector or shared screen), or one device per student/group if they run it themselves.
@@ -31,7 +31,7 @@ This encounter runs only in a supervised educational setting: you present, a cla
 
 Do not walk into class cold. Run the encounter once yourself, alone, before your students ever see it. This is the single most important instruction on this page.
 
-1. Open Claude or ChatGPT in a new conversation.
+1. Open DeepSeek in a new conversation.
 2. Paste the entire encounter prompt and send it.
 3. Read the tutorial and Sun Tzu's opening carefully. Note what he offers as the first thread: the thirteen chapters — how wars are won.
 4. Now type a question yourself. Try: "What is the supreme art of war?" Watch what happens: the figure answers in one short paragraph, and then — outside the voice, in brackets and italics — the system suggests directions you might take next.
