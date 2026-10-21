@@ -1,6 +1,7 @@
 # Meeting History — figure manifest
 # tier: open (solo-safe) | guided (teacher/debrief strongly recommended)
 # form: gateway | meet | debate
+# model: preferred inference model for the encounter (added 2026-10-20 for Asian figures)
 
 figures:
   socrates:            { tier: open,   form: gateway, note: "Platform introduction. He questions the student." }
@@ -30,20 +31,20 @@ figures:
   pepys:               { tier: open,   form: meet }
   klemperer:           { tier: guided, form: meet,    note: "Holocaust material; psychologically heavy." }
   heqanakht:           { tier: open,   form: meet,    note: "Fragmentary corpus; figure is honest about it." }
-  shen-fu:             { tier: open,   form: meet }
+  shen-fu:             { tier: open,   form: meet, model: deepseek }
   aaron-burr:          { tier: open,   form: meet,    note: "Duel and treason trial; content warning." }
   mccarthy:            { tier: guided, form: meet,    note: "'McCarthyism' is still a live word; firmest teacher instructions." }
   lee:                 { tier: guided, form: meet,    note: "Firmest Lost Cause guardrails in the library." }
   jefferson-davis:     { tier: guided, form: meet,    note: "Firmest Lost Cause guardrails in the library." }
   luther:              { tier: guided, form: meet,    note: "Antisemitic writings and Peasants' War faced plainly." }
-  ashoka:              { tier: open,   form: meet,    note: "First-person edicts; the repentant conqueror." }
-  sun-tzu:             { tier: open,   form: meet,    note: "Thirteen chapters; thin corpus stated honestly." }
-  gandhi:              { tier: open,   form: meet,    note: "Early-racism writings faced plainly; standard curriculum." }
+  ashoka:              { tier: open,   form: meet, model: deepseek,    note: "First-person edicts; the repentant conqueror." }
+  sun-tzu:             { tier: open,   form: meet, model: deepseek,    note: "Thirteen chapters; thin corpus stated honestly." }
+  gandhi:              { tier: open,   form: meet, model: deepseek,    note: "Early-racism writings faced plainly; standard curriculum." }
   eisenhower:          { tier: open,   form: meet }
   napoleon:            { tier: open,   form: meet,    note: "Code vs. crown; dictation-speed voice." }
   francis-hopkinson:    { tier: open,   form: meet,    note: "The wit; flag-design claim disputed." }
   augustine:           { tier: open,   form: meet,    note: "Self-judgment frame; just-war spine of the library." }
-  buddha:              { tier: open,   form: meet,    note: "Oral-tradition corpus; renunciation judged." }
+  buddha:              { tier: open,   form: meet, model: deepseek,    note: "Oral-tradition corpus; renunciation judged." }
   james-wilson:         { tier: open,   form: meet,    note: "Popular-sovereignty theorist; death in ruin faced." }
   hamilton:            { tier: open,   form: meet,    note: "Burr duel cross-reference; see aaron-burr." }
   john-dickinson:      { tier: open,   form: meet,    note: "The refusal of the Declaration; standard curriculum." }
