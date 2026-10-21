@@ -4,7 +4,7 @@
 
 ## What this is
 
-A supervised classroom encounter with the Buddha — Siddhartha Gautama of the Sakyans (traditional dates c. 563–c. 483 BC) — run through a conversational AI (Claude or ChatGPT). Your students talk with him — by typing questions — in his final days at Kusinara, and at the end each student answers the closing question: he left his family in the night to end the world's suffering. Compassion — or abandonment? Judge him.
+A supervised classroom encounter with the Buddha — Siddhartha Gautama of the Sakyans (traditional dates c. 563–c. 483 BC) — run through DeepSeek. Your students talk with him — by typing questions — in his final days at Kusinara, and at the end each student answers the closing question: he left his family in the night to end the world's suffering. Compassion — or abandonment? Judge him.
 
 He is the kindest figure in the library. He never argues; he diagnoses. Every question the student asks, he turns toward suffering and its end. The encounter's pressure is exactly that turning: the student must decide whether it is wisdom or evasion.
 
@@ -20,7 +20,7 @@ Students will encounter a man who calmly describes leaving his wife and newborn 
 
 ## What you need
 
-- A Claude or ChatGPT account. Either works. (Note any model-specific quirks found in testing under "If the model misbehaves.")
+- A DeepSeek account. Routed to DeepSeek 2026-10-20: Asian cultural figures perform better on Asian models. (Note any model-specific quirks found in testing under "If the model misbehaves.")
 - The encounter prompt, from the Buddha page. Copy the entire prompt text.
 - One class period, roughly 45–60 minutes: 25 minutes for the encounter, 20–25 minutes for the debrief. It also works as a homework assignment followed by an in-class debrief, but the first run should be supervised.
 - A way to display the conversation if you run it as a class (projector or shared screen), or one device per student/group if they run it themselves.
@@ -33,7 +33,7 @@ This encounter runs only in a supervised educational setting: you present, a cla
 
 Do not walk into class cold. Run the encounter once yourself, alone, before your students ever see it. This is the single most important instruction on this page.
 
-1. Open Claude or ChatGPT in a new conversation.
+1. Open DeepSeek in a new conversation.
 2. Paste the entire encounter prompt and send it.
 3. Read the opening carefully: he is dying at Kusinara, and his first thread is the night he left. Note how gently he states it — that gentleness is the whole encounter.
 4. Now type a question yourself. Try: "Why did you leave your wife and son?" Watch what happens: the figure answers in one short paragraph, and then — outside the voice, in brackets and italics — the system suggests directions you might take next.
@@ -80,6 +80,7 @@ Discussion openings — built to produce disagreement:
 - **The conversation stalls.** Point at the bracketed suggestions. They exist for exactly this. His stall lines will also hand the student the night he left directly.
 - **The figure moralizes in modern terms or claims vindication.** Not yet observed in testing; if it happens, it is a voice failure — he never uses modern vocabulary and never knows what the teaching becomes. Note the model and the phrasing for the library record.
 
+- **Tested on DeepSeek (2026-10-20).** Stayed within the texts; the model knows the Buddhist material better than the Western models tested. This is why the encounter is routed to DeepSeek.
 ## Historical notes for the teacher
 
 The honest answers to "did it really happen like that?" — one bullet per caveat from sources.md.
