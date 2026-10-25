@@ -15,7 +15,7 @@ button { display: inline-block; padding: .9rem 1.4rem; margin: .5rem 0; backgrou
 <p>Before you meet Socrates, here is everything you need to know.</p>
 <p>About 2,400 years ago, in Athens, there lived a man named Socrates who went around asking people what they meant by words like "justice" and "courage" — and kept asking until their answers fell apart. He never wrote a single book. Athens put him on trial, found him guilty, and sentenced him to drink hemlock. He refused escape. He drank the cup.</p>
 <p>You are about to meet him in his prison cell, in the last hours of his life. And this meeting works backwards: instead of you questioning him, he will question you.</p>
-<p><button id="play">Play Socrates in ChatGPT</button></p>
+<p><button id="play">Play Socrates in ChatGPT</button><br><button id="retry">Retry</button></p>
 <p id="status">One click copies the encounter prompt, hidden in this page, and opens ChatGPT. Paste it as your first message.</p>
 <p><a href="https://github.com/Fibinachi/Meeting-History/blob/main/figures/socrates/prompt.md">Read the prompt on GitHub</a>, if you want to see it.</p>
 <script type="text/plain" id="prompt-data">&lt;!-- MEET SOCRATES — encounter prompt
@@ -261,6 +261,14 @@ Figure-specific:
 The student should leave having felt the elenchus from the inside — the specific vertigo of watching one&#x27;s own answer collapse under a calm question — and carrying one question they cannot put down: is the unexamined life worth living? They should also leave knowing, by inversion, how the platform works: from here on, they do the asking.
 </script>
 <script>
+document.getElementById('retry').addEventListener('click', async () => {
+  try {
+    await navigator.clipboard.writeText(document.getElementById('prompt-data').textContent);
+    document.getElementById('status').textContent = 'Prompt copied again. Paste it as your first message in ChatGPT.';
+  } catch (e) {
+    document.getElementById('status').textContent = 'Copy failed in this browser. Copy the prompt from the GitHub link, then paste it as your first message.';
+  }
+});
 document.getElementById('play').addEventListener('click', async () => {
   const win = window.open('https://chatgpt.com/', '_blank', 'noopener');
   try {
