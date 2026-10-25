@@ -5,21 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Meet Socrates — Playthrough</title>
 <style>
-body { font-family: system-ui, sans-serif; max-width: 860px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
-pre { white-space: pre-wrap; background: #f4f4f4; padding: 1rem; overflow: auto; }
-button, a.button { display: inline-block; padding: .6rem 1rem; margin: .25rem .5rem .25rem 0; background: #111; color: #fff; text-decoration: none; border: 0; cursor: pointer; font-size: 1rem; }
+body { font-family: system-ui, sans-serif; max-width: 720px; margin: 3rem auto; padding: 0 1rem; line-height: 1.5; }
+button, a.button { display: inline-block; padding: .8rem 1.2rem; margin: .5rem .5rem .5rem 0; background: #111; color: #fff; text-decoration: none; border: 0; cursor: pointer; font-size: 1.1rem; }
+button:disabled, a.button.disabled { background: #999; cursor: not-allowed; pointer-events: none; }
+#prompt-data { display: none; }
 </style>
 </head>
 <body>
-<h1>Meet Socrates — Playthrough</h1>
-<p>This page loads the Socrates encounter prompt from the Meeting History library. It does not run the encounter itself. To play it: copy the prompt, open ChatGPT, paste it as your first message, and answer Socrates.</p>
+<h1>Meet Socrates</h1>
+<p>Before you meet Socrates, here is everything you need to know.</p>
+<p>About 2,400 years ago, in Athens, there lived a man named Socrates who went around asking people what they meant by words like "justice" and "courage" — and kept asking until their answers fell apart. He never wrote a single book. Athens put him on trial, found him guilty, and sentenced him to drink hemlock. He refused escape. He drank the cup.</p>
+<p>You are about to meet him in his prison cell, in the last hours of his life. And this meeting works backwards: instead of you questioning him, he will question you.</p>
+<p><strong>Step 1:</strong> copy the encounter prompt. <strong>Step 2:</strong> open ChatGPT and paste it as your first message.</p>
 <p>
-<button id="copy">Copy prompt</button>
-<a class="button" href="https://chatgpt.com/" target="_blank" rel="noopener">Open ChatGPT</a>
-<a class="button" href="https://github.com/Fibinachi/Meeting-History/blob/main/figures/socrates/prompt.md" target="_blank" rel="noopener">Prompt on GitHub</a>
+<button id="copy">1. Copy prompt</button>
+<a id="open-gpt" class="button disabled" href="https://chatgpt.com/" target="_blank" rel="noopener">2. Open ChatGPT</a>
 </p>
-<p id="status"></p>
-<pre id="prompt">&lt;!-- MEET SOCRATES — encounter prompt
+<p id="status">The prompt is loaded in this page, but not shown, so you do not have to scroll through it.</p>
+<p><a href="https://github.com/Fibinachi/Meeting-History/blob/main/figures/socrates/prompt.md">Read the prompt on GitHub</a>, if you want to see it.</p>
+<script type="text/plain" id="prompt-data">&lt;!-- MEET SOCRATES — encounter prompt
      Platform introduction. The form is INVERTED: he questions the student.
      The student learns the platform by being interrogated (elenchus), and the
      encounter ends with the handoff: from here, the student does the questioning.
@@ -260,12 +264,17 @@ Figure-specific:
 ## THE GOAL [AUTHOR]
 
 The student should leave having felt the elenchus from the inside — the specific vertigo of watching one&#x27;s own answer collapse under a calm question — and carrying one question they cannot put down: is the unexamined life worth living? They should also leave knowing, by inversion, how the platform works: from here on, they do the asking.
-</pre>
+</script>
 <script>
-const prompt = document.getElementById('prompt').innerText;
+const prompt = document.getElementById('prompt-data').textContent;
 document.getElementById('copy').addEventListener('click', async () => {
-  try { await navigator.clipboard.writeText(prompt); document.getElementById('status').textContent = 'Prompt copied. Open ChatGPT and paste it as your first message.'; }
-  catch (e) { document.getElementById('status').textContent = 'Copy failed in this browser. Select the prompt text and copy it manually.'; }
+  try {
+    await navigator.clipboard.writeText(prompt);
+    document.getElementById('status').textContent = 'Prompt copied. Now open ChatGPT and paste it as your first message.';
+    document.getElementById('open-gpt').classList.remove('disabled');
+  } catch (e) {
+    document.getElementById('status').textContent = 'Copy failed in this browser. Use the GitHub prompt link and copy it there.';
+  }
 });
 </script>
 </body>
